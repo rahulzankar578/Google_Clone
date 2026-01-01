@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(35, 35, 35);
+    margin: 0px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.Right{
+    display: flex;
+    align-items: center;
+}
+.btn_lab, .btn_apps{
+    width: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.btn_gmail, .btn_images {
+    color: white;
+    margin-right: 15px;
+    
+    
+}
+.btn_about, .btn_store{
+    margin-right: 15px;
+    color: white;
+    margin-left: 15px;
+}
+.btn_profile{
+    width: 38px;
+    height: 38px;
+    border-radius: 200px;
+    cursor: pointer;
+}
+.right{
+    display: flex;
+    align-items: center;
+    
+}
+.btn_profile{
+
+    margin-right: 15px;
+}
+.left{
+    display: flex;
+    justify-content: center;
+}
+.btn_apps{
+    width: 20px;
+    padding: 5px;
+}
+.google_logo{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 300px;
+    cursor: pointer;
+}
+.search_bar{
+    width: 730px;
+    height: 53px;
+    border-radius: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 73, 73);
+    margin-top: 30px;  
+    
+}
+
+.btn_search{
+    color: white;
+    background-color: rgb(73, 73, 73);
+    width: 700px;
+    padding: 10px;  
+    
+    border: none;
+    outline: none;
+}
+.search{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.btn1, .btn2{
+    color: white;
+    background-color: rgb(54, 54, 54);
+    width: 150px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
+.btn2:hover{
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid
+}
+.btn1:hover{
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+}
+.lang{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.language{
+    color: white;
+    margin-top: 30px;
+    
+}
+.links{
+    color: #99c3ff;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+.bottom{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28, 27, 27);
+    margin-top: 1.5px;
+
+}
+.last{
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.lasts{
+    margin-right: 20px;
+}
+.india{
+    display: flex;
+    flex-direction: row;
+    justify-content: first baseline;
+    align-items: center;
+    color: white;
+    background-color: rgb(28, 27, 27);
+    height: 45px;
+    padding-left: 20px;
+}
+.All_Bottom_cont{
+    margin-top: 65px;
+}
+.search_btn{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.lens{
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.voise{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.ai_btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 200px;
+    background-color: grey;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
